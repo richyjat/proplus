@@ -2,6 +2,7 @@ const { Client, Collection } = require("discord.js");
 const { config } = require("dotenv");
 const fs = require("fs");
 
+//client
 const client = new Client({
     disableEveryone: true
 });
@@ -20,9 +21,9 @@ config({
 });
 
 client.on("message", async message => {
-    const prefix = "$";
+    const prefix = "$"; //prefix
 
-    if (message.author.bot) return;
+    if (message.author.bot) return; //author
     if (!message.guild) return;
     if (!message.content.startsWith(prefix)) return;
     if (!message.member) message.member = await message.guild.fetchMember(message);
