@@ -1,0 +1,26 @@
+{
+  "name": "ProPlus",
+  "version": "1.0.0",
+  "description": "Bot made by Volt#9462",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Volt",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "common-tags": "^1.8.0",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "random-puppy": "^1.1.0"
+  },
+  "devDependencies": {}
+}
